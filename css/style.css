@@ -36,11 +36,108 @@ address {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--Black, #2c2c2c);
+  color: #2c2c2c;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .container {
   width: 1280px;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+.customers {
+  background: #FFE550;
+  padding-top: 140px;
+  padding-bottom: 126px;
+}
+
+.customers-title {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.customers-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 139px;
+  justify-content: start;
+}
+
+.customers-item {
+  width: 501px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFEFE;
+  padding: 14px;
+  border-radius: 0 14px 14px 14px;
+}
+
+.customers-item-icon {
+  fill: #FFE550;
+  margin-bottom: 28px;
+}
+
+.customers-item-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 41px;
+}
+
+.customers-users-container {
+  display: flex;
+  position: relative;
+  gap: 16px;
+  justify-items: start;
+  width: auto;
+}
+
+.customers-users-container::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 1px;
+  background: #7EB101;
+}
+
+.customers-user-foto {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  border: 2px solid #FFE550;
+}
+
+.customers-user-info {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.customers-user-name {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.customers-user-status {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
