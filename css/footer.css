@@ -1,0 +1,268 @@
+.froot-footer {
+
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../images/footer/fruits.jpg');
+background-position: center;
+box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+ @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+   .froot-footer {
+    background-image: url('../images/footer/Fruits@2x-min.jpg');
+   }
+}
+
+.footer-list-item{
+display: flex;
+
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo{
+  margin-right: 148px;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 28px;
+}
+
+
+
+.footer-nav-list {
+font-size: 14px;
+}
+
+
+
+.footer-service {
+  justify-content: flex-end;
+}
+
+.footer-form {
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+.subscribe-text{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.5;
+margin-bottom: 12px;
+
+}
+
+
+.footer-input{
+  display: inline-flex;
+height: 42px;
+padding: 12px 61px 12px 12px;
+align-items: center;
+border-radius: 30px;
+border: 0.854px solid  #FFE550;
+background:  #FEFEFE;
+margin-right: 13px;
+margin-bottom: 12px;
+}
+
+.footer-button{
+  display: inline-flex;
+padding: 11px 22px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+border: 0.854px solid #7EB101;
+background: #FFF;
+cursor: pointer;
+}
+
+.footer-button:hover, .footer-button:active{
+  border: 2px solid #FFE450;
+}
+
+.footer-text {
+font-size: 12px;
+margin-bottom: 100px;
+}
+
+.footer-final-text{
+font-size: 12px;
+margin-bottom: 100px;
+}
+
+.footer-span {
+  color:  #7EB101;
+font-size: 12px;
+text-decoration-line: underline;
+}
+
+.footer-service {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.footer-service-list-item{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.footer-service-list {
+  color: #7EB101;
+font-size: 12px;
+text-decoration-line: underline;
+}
+
+
+
+
+    @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+.froot-footer {
+
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../images/footer/bac-m-min.jpg');
+background-position: center;
+box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+ @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+   .froot-footer {
+    background-image: url('../images/footer/bac-m@2x-min.jpg');
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-list{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-nav-list {
+        margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .footer-text {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-service {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-service-list-item{
+        gap: 32px;
+        margin-bottom: 40px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-service-list {
+font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+.footer-frm{
+margin-bottom: 24px;
+}
+}
+
+@media screen and (max-width: 768px) {
+        .footer-form {
+            margin-top: 40px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .footer-nav {
+            margin-top: 60px;
+        }
+    }
+
+  @media screen and (max-width: 768px) {
+    .footer-final-text{
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.footer-input{
+    margin-bottom: 20px;
+}
+}
+
+    
+        @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+
+.froot-footer {
+
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../images/footer/bac-t-min.jpg');
+background-position: center;
+box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+ @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+   .froot-footer {
+    background-image: url('../images/footer/bac-t@2x-min.jpg');
+   }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .footer-list-item{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .footer-form {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .footer-nav {
+        margin-top: 100px;
+        align-items: normal;
+    }
+}
+
+  
