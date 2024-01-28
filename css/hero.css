@@ -1,5 +1,6 @@
 .hero-wrapper {
-    
+    background: var(--White, #FEFEFE);
+    width: 266px;
 }
 
 .hero-title {
