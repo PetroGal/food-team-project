@@ -104,7 +104,11 @@
   .customers-container {
     margin-bottom: 176px;
     background: #FFE550;
-    padding: 140px 104px 126px 16px;
+    padding: 140px 104px 126px 32px;
+  }
+
+  .customers-list {
+    gap: 139px;
   }
 
   .customers-item {
