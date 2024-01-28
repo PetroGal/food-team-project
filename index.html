@@ -30,18 +30,25 @@
 
   <body>
     <!-- header Mykola -->
-    <header>
-      <a href=""><img src="./images/Vector.png" alt="logo" width="66" height="52" /></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button">Order Now</button>
+    <header class="header-border">
+      <div class="container">
+        <div class="header-container">
+          <a href="" class="header-logo"><img src="./images/Vector.png" alt="logo" width="66" height="52" /></a>
+        <button type="button" class="mob-menu-btn"><svg width="28" height="28">
+          <use href="./images/header/symbol-defs.svg#icon-menu-button"></use>
+        </svg></button>
+        <nav class="nav-menu">
+          <ul class="nav-menu-item">
+            <li><a href="" class="nav-menu-list">Home</a></li>
+            <li><a href="" class="nav-menu-list">About</a></li>
+            <li><a href="" class="nav-menu-list">Service</a></li>
+            <li><a href="" class="nav-menu-list">Menu</a></li>
+            <li><a href="" class="nav-menu-list">Contact</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="header-btn">Order Now</button>
+        </div>
+      </div>
     </header>
     <main>
       <!-- hero Zeinep -->
