@@ -64,8 +64,7 @@
         min-height: 282px;
         border-radius: 140px;
         border: 11px solid #ffe550;
-        background-color: #fefefe;
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-color: #fefefe;       
       }
       
       .favorites-item:hover,
@@ -80,7 +79,7 @@
       
       @media only screen and (min-width: 768px) {
         .favorites-item {
-          min-height: 338px;
+          min-height: 338x;
           border-radius: 167px;
           border-width: 14px;
           width: calc((100% - 32px * 1) / 2);
@@ -101,7 +100,7 @@
       }
       
       .favorites-img {
-        border-radius: 116px;
+        border-radius: 112px;
       }
       
       @media only screen and (min-width: 768px) {
@@ -112,7 +111,7 @@
       
       @media only screen and (min-width: 1280px) {
         .favorites-img {
-          border-radius: 156px;
+          border-radius: 158px;
         }
       }
       
