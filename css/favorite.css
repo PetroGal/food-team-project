@@ -1,0 +1,118 @@
+.favorites {
+    padding-top: 132px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+    padding-right: 0px ;
+    background: #FEFEFE;    
+    }
+    .container {
+    }
+    
+    .favorites-title {
+        color: #2c2c2c;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .favorites-title {
+          font-size: 42px;
+        }
+      }
+      
+      .favorites-text {
+        color: #2c2c2c;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .favorites-text {
+          font-size: 16px;
+        }
+      }
+      
+      @media only screen and (min-width: 1280px) {
+        .favorites-text {
+          margin-bottom: 40px;
+        }
+      }
+      
+      .favorites-number {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .benefits {
+          gap: 32px;
+        }
+      }
+      
+      .favorites-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        min-width: 280px;
+        min-height: 282px;
+        border-radius: 140px;
+        border: 11px solid #ffe550;
+        background-color: #fefefe;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      .favorites-item:hover,
+      .favorites-item:focus,
+      .favorites-item:active {
+        border-color: #bbf330;
+      }
+      
+      .favorites-item:not(:nth-child(-n + 3)) {
+        display: none;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .favorites-item {
+          min-height: 338px;
+          border-radius: 167px;
+          border-width: 14px;
+          width: calc((100% - 32px * 1) / 2);
+        }
+      
+        .favorites-item:not(:nth-child(-n + 3)) {
+          display: flex;
+        }
+      }
+      
+      @media only screen and (min-width: 1280px) {
+        .favorites-item {
+          min-height: 397px;
+          border-radius: 196px;
+          border-width: 16px;
+          width: calc((100% - 32px * 2) / 3);
+        }
+      }
+      
+      .favorites-img {
+        border-radius: 116px;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        .favorites-img {
+          border-radius: 134px;
+        }
+      }
+      
+      @media only screen and (min-width: 1280px) {
+        .favorites-img {
+          border-radius: 156px;
+        }
+      }
+      

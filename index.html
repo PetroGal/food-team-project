@@ -83,28 +83,183 @@
         <button type="button">Order Now</button>
       </section>
       <!-- favorites Eugenia -->
-      <h2>Some of Our Favorites</h2>
-      <p>Looking for something delicious?</p>
-      <ul>
-        <li>
-          <img src="./images/gamburger-min.png" alt="gambureger" width="315" height="315" />
-        </li>
-        <li>
-          <img src="./images/pasta.png" alt="pasta" width="315" height="315" />
-        </li>
-        <li>
-          <img src="./images/pizza.png" alt="pizza" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/chicken.png" alt="chicken" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/salat.png" alt="salat" width="315" height="315" />
-        </li>
-        <li>
-          <img src="images/borshch.png" alt="borshch" width="315" height="315" />
-        </li>
-      </ul>
+      <section class="favorites">
+        <div class="container">
+          <h2 class="favorites-title">Some of Our Favorites</h2>
+          <p class="favorites-text">Looking for something delicious?</p>
+          <ul class="favorites-number">
+            <li class="favorites-item">
+              <picture>                
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/favorites/gamburger1x.png 1x,
+                    ./images/favorites/gamburger2x.png 2x
+                  "
+                  width="315" />                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/favorites/gamburger-tab1x.png 1x,
+                    ./images/favorites/gamburger-tab2x.png 2x
+                  "
+                  width="267" />
+                
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/favorites/gamburger-mob1x.png 1x,
+                    ./images/favorites/gamburger-mob2x.png 2x
+                  "
+                  width="223" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/gamburger1x.png"
+                  alt="gamburger"
+                  width="315"
+                  />
+              </picture>
+            </li>
+            <li class="favorites-item">
+              <picture>                
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/favorites/pasta1x.png 1x,
+                    ./images/favorites/pasta2x.png 2x
+                  "
+                  width="315" />                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                  ./images/favorites/pasta-tab1x.png 1x,
+                  ./images/favorites/pasta-tab2x.png 2x
+                  "
+                  width="267" />                
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                  ./images/favorites/pasta-mob1x.png 1x,
+                  ./images/favorites/pasta-mob2x.png 2x
+                  "
+                  width="223" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/pasta1x.png"
+                  alt="pasta"
+                  width="315"
+                  />
+              </picture>
+            </li>
+            <li class="favorites-item">
+              <picture>               
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/favorites/pizza1x.png 1x,
+                  ./images/favorites/pizza2x.png 2x
+                  "
+                  width="315" />                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                  ./images/favorites/pizza-tab1x.png 1x,
+                  ./images/favorites/pizza-tab2x.png 2x
+                  "
+                  width="267" />                
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                  ./images/favorites/pizza-mob1x.png 1x,
+                  ./images/favorites/pizza-mob2x.png 2x 
+                  "
+                  width="223" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/pizza1x.png"
+                  alt="pizza"
+                  width="315"
+                  />
+              </picture>
+            </li>
+            <li class="favorites-item">
+              <picture>                
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/favorites/chicken1x.png 1x,
+                  ./images/favorites/chicken2x.png 2x
+                  "
+                  width="315" />
+                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                  ./images/favorites/chicken-tab1x.png 1x,
+                  ./images/favorites/chicken-tab2x.png 2x
+                  "
+                  width="267" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/chicken1x.png"
+                  alt="chicken"
+                  width="315"
+                  />
+              </picture>
+            </li>
+            <li class="favorites-item">
+              <picture>                
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/favorites/salat1x.png 1x,
+                  ./images/favorites/salat2x.png 2x
+                  "
+                  width="315" />
+                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                  ./images/favorites/salat-tab1x.png 1x,
+                  ./images/favorites/salat-tab2x.png 2x
+                  "
+                  width="267" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/salat1x.png"
+                  alt="salad"
+                  width="315"                  
+                   />
+              </picture>
+            </li>
+            <li class="favorites-item">
+              <picture>               
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                  ./images/favorites/borshch1x.png 1x,
+                  ./images/favorites/borshch2x.png 2x
+                  "
+                  width="315" />                
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                  ./images/favorites/borshch-tab1x.png 1x,
+                  ./images/favorites/borshch-tab2x.png 2x
+                  "
+                  width="267" />
+                <img
+                  class="favorites-img"
+                  src="./images/favorites/borshch1x.png"
+                  alt="borshch"
+                  width="315"
+                  />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
       <!-- customers Vadim -->
       <section class="customers">
         <div class="container">
