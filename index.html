@@ -29,7 +29,8 @@
   </head>
 
   <body>
-    <!-- header Mykola -->
+    <!-- HEADER ------------------ Mykola ----------------------- HEADER ----->
+
     <header>
       <a href=""><img src="./images/Vector.png" alt="logo" width="66" height="52" /></a>
       <nav>
@@ -44,7 +45,7 @@
       <button type="button">Order Now</button>
     </header>
     <main>
-      <!-- hero Zeinep -->
+      <!-- HERO ------------------ Zeinep -------------------- HERO --------->
 
       <section>
         <h1>Enjoy Your Favorite Food From Anywhere</h1>
@@ -53,10 +54,12 @@
           doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal
           from the comfort of your own home.
         </p>
-        <button type="button">Order Now</button
+        <button type="button" data-modal-open>Order Now</button
         ><img src="./images/salad.png" alt="salad" width="528" height="528" />
       </section>
-      <!-- offering Demyan -->
+
+      <!-- OFFERING -------------- Demyan -------------------  OFFERING ------>
+
       <section>
         <img src="./images/aple.png" alt="apple" width="396" height="502" />
         <h2>What’s Special About Our Offerings</h2>
@@ -82,7 +85,9 @@
         </ul>
         <button type="button">Order Now</button>
       </section>
-      <!-- favorites Eugenia -->
+
+      <!-- FAVORITES ------------ Eugenia -------------------- FAVORITES ----->
+
       <h2>Some of Our Favorites</h2>
       <p>Looking for something delicious?</p>
       <ul>
@@ -105,7 +110,9 @@
           <img src="images/borshch.png" alt="borshch" width="315" height="315" />
         </li>
       </ul>
-      <!-- customers Vadim -->
+
+      <!-- CUSTOMERS ------------ Vadim ---------------------- CUSTOMERS ----->
+
       <section class="customers">
         <div class="container">
           <h2 class="customers-title">What our Customers Say</h2>
@@ -156,9 +163,14 @@
           </ul>
         </div>
       </section>
-      <!-- subscribe Dima -->
+
+      <!-- SUBSCRIBE ------------ Dima ----------------------- SUBSCRIBE ----->
+      
     </main>
-    <!-- footer Oksana -->
+
+    <!-- FOOTER --------------- Oksana --------------------- FOOTER -------->
+    
+   <!-- footer Oksana -->
      <footer class="froot-footer">
              <div class="container">
            <div class="footer-list-item">
@@ -191,6 +203,31 @@
       </div>
     </main>
       </footer>
-    <!-- modal Андрій -->
+  
+    <!---- MODAL ---------------- Andriy --------------------- MODAL --------->
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/iconsp.svg#icon-close-btn-mob"></use>
+          </svg>
+        </button>
+        <p class="modal-title"></p>
+        <form action="">
+          <div class="modal-field">
+            <label for="" class="modal-label"></label><input type="text" class="modal-input" />
+          </div>
+          <div class="modal-field">
+            <label for="" class="modal-label"></label><input type="text" class="modal-input" />
+          </div>
+          <div class="modal-field">
+            <label for="" class="modal-label"></label><input type="text" class="modal-input" />
+          </div>
+          <button class="modal-send-btn"></button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
