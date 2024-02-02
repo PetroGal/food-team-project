@@ -49,7 +49,7 @@
   right: 0;
   width: 1px;
   height: 52px;
-  background: #7EB101;
+  background: #7eb101;
 }
 
 .customers-user-info {
@@ -74,8 +74,8 @@
 
 @media only screen and (min-width: 768px) {
   .customers-container {
-      margin-bottom: 46px;
-    }
+    margin-bottom: 46px;
+  }
 
   .customers-title {
     font-size: 42px;
@@ -103,7 +103,7 @@
 @media only screen and (min-width: 1280px) {
   .customers-container {
     margin-bottom: 176px;
-    background: #FFE550;
+    background: #ffe550;
     padding: 140px 104px 126px 32px;
   }
 
@@ -113,7 +113,7 @@
 
   .customers-item {
     padding: 14px;
-    background-color: #FEFEFE;
+    background-color: #fefefe;
     border-radius: 0 40px 40px 40px;
   }
 }
