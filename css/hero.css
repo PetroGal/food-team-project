@@ -1,34 +1,106 @@
 .hero-wrapper {
-    background: var(--White, #FEFEFE);
-    width: 266px;
+    background-color: var(--White, #FEFEFE);
+    padding-top: 60px;
+    padding-bottom: 91px;
 }
-
 .hero-title {
-color: #2C2C2C;
-font-size: 28px;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 28px;  
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
 }
 .hero-text {
-color: var(--Black, #2C2C2C);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.4;
-margin-bottom: 32px;
+    color: var(--Black, #2C2C2C);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 32px;
 }
 .hero-btn {
-color: var(--Black, #2C2C2C);
-font-size: 13px;
-font-weight: 500;
-line-height: 1.5;
+    color: #2c2c2c;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
 
-display: inline-flex;
-padding: 6px 18px;
-justify-content: center;
-align-items: center;
-border-radius: 30px;
-background-color: #BBF330;
-border: transparent;
+    display: inline-flex;
+    padding: 6px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #BBF330;
+    border: transparent;
 
+    border-radius: 30px;
+    padding: 6px 17px;
+    width: 98px;
+    height: 32px;
 }
+.hero-kart {
+    display: none;
+}
+.hero-kart-desktop {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .hero-wrapper {
+        padding-top: 30px;
+        padding-bottom: 42px;
+    }
+    .hero-title {
+        line-height: 1.2;
+        font-size: 42px;
+        margin-bottom: 41px;
+        width: 481px;
+    }
+    .hero-group {
+        position: relative;
+        display: flex;
+        gap: 54px;
+    }
+    .hero-text {
+        color: var(--Black, #2C2C2C);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-bottom: 49px;
+        width: 336px;
+    }
+    .hero-kart {
+        display: block;
+        position: absolute;
+        top: -50%;
+        right: 0;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .hero-wrapper {
+        padding-top: 168px;
+        padding-bottom: 0;
+        position: relative;
+    }
+    .hero-title {
+        font-size: 48px;
+    }
+    .hero-text {
+        width: 511px;
+        margin-bottom: 40px;
+    }
+    .hero-group {
+        gap: 100px;
+    }
+    .hero-kart {
+        display: none;
+    }
+    .hero-kart-desktop {
+        position: absolute;
+        top: -200%;
+        right: 0;
+        display: block;
+        border-radius: 291px;
+        border: 27px solid #FFE550;       
+    }
+    .hero-btn {
+        margin-bottom: 164px;
+    }
+    }

@@ -1,163 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/offering.css" />
-    <link rel="stylesheet" href="./css/favorite.css" />
-    <link rel="stylesheet" href="./css/customers.css" />
-    <link rel="stylesheet" href="./css/subscribe.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
-  </head>
 
-  <body>
-    <!-- header Mykola -->
-    <header>
-      <a href=""><img src="./images/Vector.png" alt="logo" width="66" height="52" /></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button">Order Now</button>
-    </header>
-    <main>
-      <!-- hero Zeinep -->
-      <section class="hero-wrapper">
-        <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/hero.css" />
+  <link rel="stylesheet" href="./css/offering.css" />
+  <link rel="stylesheet" href="./css/favorite.css" />
+  <link rel="stylesheet" href="./css/customers.css" />
+  <link rel="stylesheet" href="./css/subscribe.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/modal.css" />
+</head>
+
+<body>
+  <!-- header Mykola -->
+  <header>
+    <a href=""><img src="./images/Vector.png" alt="logo" width="66" height="52" /></a>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+    <button type="button">Order Now</button>
+  </header>
+  <main>
+    <!-- hero Zeinep -->
+    <section class="hero-wrapper container">
+      <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+      <div class="hero-group">
         <p class="hero-text">
           With just a few clicks, you can have your favorite meals delivered straight to your
           doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal
           from the comfort of your own home.
         </p>
-        <button class="hero-btn" type="button">Order Now</button>
-        <img src="./images/salad.png" alt="salad" width="528" height="528" />
-      </section>
-      <!-- offering Demyan -->
-      <section>
-        <img src="./images/aple.png" alt="apple" width="396" height="502" />
-        <h2>What’s Special About Our Offerings</h2>
-        <p>
-          With our platform, you can browse through a diverse selection of cuisines and local
-          restaurants, and choose from a variety of dishes that cater to your specific taste buds.
-        </p>
-        <ul>
-          <li>
-            <h3>Fasest Delivery</h3>
-            <p>
-              Our advanced logistics system and dedicated delivery partners ensure that your meals
-              are delivered to you within 30-minutes.
-            </p>
-          </li>
-          <li>
-            <h3>Easy To Order</h3>
-            <p>
-              You can browse through a wide variety of cuisines and restaurants, select your
-              favorite meals, and place your order in just a few clicks.
-            </p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
-      </section>
-      <!-- favorites Eugenia -->
-      <h2>Some of Our Favorites</h2>
-      <p>Looking for something delicious?</p>
+        <img class="hero-kart" srcset="./images/hero-salad.png 1x, ./images/hero-salad-max.png 2x"
+          src="./images/hero-salad.png" alt="salad" width="336" height="320">
+          <img class="hero-kart-desktop" src="./images/salad.png" alt="salad" width="528" height="528">
+      </div>
+      <button class="hero-btn" type="button">Order Now</button>
+    </section>
+    <!-- offering Demyan -->
+    <section>
+      <img src="./images/aple.png" alt="apple" width="396" height="502">
+      <h2>What’s Special About Our Offerings</h2>
+      <p>
+        With our platform, you can browse through a diverse selection of cuisines and local
+        restaurants, and choose from a variety of dishes that cater to your specific taste buds.
+      </p>
       <ul>
         <li>
-          <img src="./images/gamburger-min.png" alt="gambureger" width="315" height="315" />
+          <h3>Fasest Delivery</h3>
+          <p>
+            Our advanced logistics system and dedicated delivery partners ensure that your meals
+            are delivered to you within 30-minutes.
+          </p>
         </li>
         <li>
-          <img src="./images/pasta.png" alt="pasta" width="315" height="315" />
-        </li>
-        <li>
-          <img src="./images/pizza.png" alt="pizza" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/chicken.png" alt="chicken" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/salat.png" alt="salat" width="315" height="315" />
-        </li>
-        <li>
-          <img src="images/borshch.png" alt="borshch" width="315" height="315" />
+          <h3>Easy To Order</h3>
+          <p>
+            You can browse through a wide variety of cuisines and restaurants, select your
+            favorite meals, and place your order in just a few clicks.
+          </p>
         </li>
       </ul>
-      <!-- customers Vadim -->
-      <section class="customers">
-        <div class="container">
-          <h2 class="customers-title">What our Customers Say</h2>
-          <p class="customers-text">
-            Don't just take our word for it - see what our satisfied customers have to say
-          </p>
-          <ul class="customers-list">
-            <li class="customers-item">
-              <svg class="customers-item-icon" width="101" height="16">
-                <use href="./images/customers/icons.svg#stars"></use>
-              </svg>
-              <p class="customers-item-text">
-                “The Best app I have used to order food in a while, so many options to choose from
-                too, I would recommend to a freind, No questions asked”
-              </p>
-              <div class="customers-users-container">
-                <img
-                  class="customers-user-foto"
-                  src="./images/customers/avatar1.jpg"
-                  alt="foto Sumit Shah"
-                />
-                <div class="customers-user-info">
-                  <p class="customers-user-name">Sumith Shah</p>
-                  <p class="customers-user-status">Some Dude</p>
-                </div>
+      <button type="button">Order Now</button>
+    </section>
+    <!-- favorites Eugenia -->
+    <h2>Some of Our Favorites</h2>
+    <p>Looking for something delicious?</p>
+    <ul>
+      <li>
+        <img src="./images/gamburger-min.png" alt="gambureger" width="315" height="315" />
+      </li>
+      <li>
+        <img src="./images/pasta.png" alt="pasta" width="315" height="315" />
+      </li>
+      <li>
+        <img src="./images/pizza.png" alt="pizza" width="315" height="315" />
+      </li>
+      <li>
+        <img src="/images/chicken.png" alt="chicken" width="315" height="315" />
+      </li>
+      <li>
+        <img src="/images/salat.png" alt="salat" width="315" height="315" />
+      </li>
+      <li>
+        <img src="images/borshch.png" alt="borshch" width="315" height="315" />
+      </li>
+    </ul>
+    <!-- customers Vadim -->
+    <section class="customers">
+      <div class="container">
+        <h2 class="customers-title">What our Customers Say</h2>
+        <p class="customers-text">
+          Don't just take our word for it - see what our satisfied customers have to say
+        </p>
+        <ul class="customers-list">
+          <li class="customers-item">
+            <svg class="customers-item-icon" width="101" height="16">
+              <use href="./images/customers/icons.svg#stars"></use>
+            </svg>
+            <p class="customers-item-text">
+              “The Best app I have used to order food in a while, so many options to choose from
+              too, I would recommend to a freind, No questions asked”
+            </p>
+            <div class="customers-users-container">
+              <img class="customers-user-foto" src="./images/customers/avatar1.jpg" alt="foto Sumit Shah" />
+              <div class="customers-user-info">
+                <p class="customers-user-name">Sumith Shah</p>
+                <p class="customers-user-status">Some Dude</p>
               </div>
-            </li>
-            <li class="customers-item">
-              <svg class="customers-item-icon" width="101" height="16">
-                <use href="./images/customers/icons.svg#stars"></use>
-              </svg>
-              <p class="customers-item-text">
-                “The ease with which I can just go in and order what i want was amazing, It has been
-                a very pleasant experience ordering from this app”
-              </p>
-              <div class="customers-users-container">
-                <img
-                  class="customers-user-foto"
-                  src="./images/customers/avatar2.jpg"
-                  alt="photo Sumith Shah"
-                />
-                <div class="customers-user-info">
-                  <p class="customers-user-name">Sumith Shah</p>
-                  <p class="customers-user-status">Some Dude</p>
-                </div>
+            </div>
+          </li>
+          <li class="customers-item">
+            <svg class="customers-item-icon" width="101" height="16">
+              <use href="./images/customers/icons.svg#stars"></use>
+            </svg>
+            <p class="customers-item-text">
+              “The ease with which I can just go in and order what i want was amazing, It has been
+              a very pleasant experience ordering from this app”
+            </p>
+            <div class="customers-users-container">
+              <img class="customers-user-foto" src="./images/customers/avatar2.jpg" alt="photo Sumith Shah" />
+              <div class="customers-user-info">
+                <p class="customers-user-name">Sumith Shah</p>
+                <p class="customers-user-status">Some Dude</p>
               </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- subscribe Dima -->
-    </main>
-    <!-- footer Oksana -->
-    <!-- modal Андрій -->
-  </body>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- subscribe Dima -->
+  </main>
+  <!-- footer Oksana -->
+  <!-- modal Андрій -->
+</body>
+
 </html>
