@@ -120,6 +120,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--black);
 }
 
 .mob-menu-nav > li:first-child a {
