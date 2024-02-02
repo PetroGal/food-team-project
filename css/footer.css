@@ -1,8 +1,8 @@
-.froot-footer {
+ .froot-footer {
 
   background-repeat: no-repeat;
 background-size: cover;
-background-image: url('../images/footer/fruits.jpg');
+background-image: url('../images/footer/bac-m-min.jpg');
 background-position: center;
 box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
 }
@@ -11,7 +11,7 @@ box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
    .froot-footer {
-    background-image: url('../images/footer/Fruits@2x-min.jpg');
+    background-image: url('../images/footer/bac-m@2x-min.jpg');
    }
 }
 
@@ -134,11 +134,12 @@ text-decoration-line: underline;
   }
 }
 
+@media screen and (min-width: 768px) {
 .froot-footer {
 
   background-repeat: no-repeat;
 background-size: cover;
-background-image: url('../images/footer/bac-m-min.jpg');
+background-image: url('../images/footer/bac-t-min.jpg');
 background-position: center;
 box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
 }
@@ -147,8 +148,9 @@ box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
    .froot-footer {
-    background-image: url('../images/footer/bac-m@2x-min.jpg');
+    background-image: url('../images/footer/bac-t@2x-min.jpg');
    }
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -227,11 +229,12 @@ margin-bottom: 24px;
 }
 
 
+ @media screen and (min-width: 1280px) {
 .froot-footer {
 
   background-repeat: no-repeat;
 background-size: cover;
-background-image: url('../images/footer/bac-t-min.jpg');
+background-image: url('../images/footer/fruits.jpg');
 background-position: center;
 box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
 }
@@ -240,9 +243,10 @@ box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
    .froot-footer {
-    background-image: url('../images/footer/bac-t@2x-min.jpg');
+    background-image: url('../images/footer/fruit@2x.jpg');
    }
 }
+ }
 
 
 @media screen and (max-width: 1280px) {
@@ -265,4 +269,4 @@ box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.10);
     }
 }
 
-  
+ 
