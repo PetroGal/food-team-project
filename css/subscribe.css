@@ -1,0 +1,125 @@
+.subscribe-section {
+}
+.subscribe-container {
+  padding-top: 18px;
+  padding-bottom: 60px;
+}
+.subscribe-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.subscribe-title {
+  color: #2c2c2c;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.subscribe-form {
+}
+.subscribe-input {
+  width: 100%;
+  padding-left: 12px;
+  margin-bottom: 32px;
+  border-radius: 30px;
+  border: 0.854px solid #ffe550;
+  background-color: #fff;
+  height: 42px;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+.subscribe-form-btn {
+  display: block;
+  width: 103px;
+  height: 42px;
+  margin-left: auto;
+  border: none;
+  border-radius: 30px;
+  background: #bbf330;
+  color: #2c2c2c;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
+  background-color: #ffe450;
+}
+
+.subscribe-form-btn:active {
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe-container {
+    padding-top: 46px;
+    padding-bottom: 100px;
+  }
+
+  .subscribe-image {
+    margin: 0 0 20px auto;
+    width: 281px;
+    height: 136px;
+  }
+
+  .subscribe-title {
+    color: #2c2c2c;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-text {
+    max-width: 520px;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 24px;
+  }
+
+  .subscribe-input {
+    width: 394px;
+    padding-left: 12px;
+    margin-right: 22px;
+  }
+  .subscribe-form-btn {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .subscribe-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 176px;
+    padding-bottom: 201px;
+  }
+
+  .image-wrap {
+    width: 100%;
+    order: 2;
+  }
+
+  .subscribe-image {
+    width: 608px;
+    height: 266px;
+    margin-left: auto;
+  }
+
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    order: 1;
+  }
+}

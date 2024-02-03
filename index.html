@@ -56,7 +56,7 @@
         <button type="button">Order Now</button
         ><img src="./images/salad.png" alt="salad" width="528" height="528" />
       </section>
-      <!-- offering Demyan -->
+      offering Demyan -->
       <section>
         <img src="./images/aple.png" alt="apple" width="396" height="502" />
         <h2>What’s Special About Our Offerings</h2>
@@ -82,78 +82,44 @@
         </ul>
         <button type="button">Order Now</button>
       </section>
-      <!-- favorites Eugenia -->
-      <h2>Some of Our Favorites</h2>
-      <p>Looking for something delicious?</p>
-      <ul>
-        <li>
-          <img src="./images/gamburger-min.png" alt="gambureger" width="315" height="315" />
-        </li>
-        <li>
-          <img src="./images/pasta.png" alt="pasta" width="315" height="315" />
-        </li>
-        <li>
-          <img src="./images/pizza.png" alt="pizza" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/chicken.png" alt="chicken" width="315" height="315" />
-        </li>
-        <li>
-          <img src="/images/salat.png" alt="salat" width="315" height="315" />
-        </li>
-        <li>
-          <img src="images/borshch.png" alt="borshch" width="315" height="315" />
-        </li>
-      </ul>
+
       <!-- customers Vadim -->
-      <section class="customers">
-        <div class="container">
-          <h2 class="customers-title">What our Customers Say</h2>
-          <p class="customers-text">
-            Don't just take our word for it - see what our satisfied customers have to say
-          </p>
-          <ul class="customers-list">
-            <li class="customers-item">
-              <svg class="customers-item-icon" width="101" height="16">
-                <use href="./images/customers/icons.svg#stars"></use>
-              </svg>
-              <p class="customers-item-text">
-                “The Best app I have used to order food in a while, so many options to choose from
-                too, I would recommend to a freind, No questions asked”
-              </p>
-              <div class="customers-users-container">
-                <img
-                  class="customers-user-foto"
-                  src="./images/customers/avatar1.jpg"
-                  alt="foto Sumit Shah"
-                />
-                <div class="customers-user-info">
-                  <p class="customers-user-name">Sumith Shah</p>
-                  <p class="customers-user-status">Some Dude</p>
-                </div>
-              </div>
-            </li>
-            <li class="customers-item">
-              <svg class="customers-item-icon" width="101" height="16">
-                <use href="./images/customers/icons.svg#stars"></use>
-              </svg>
-              <p class="customers-item-text">
-                “The ease with which I can just go in and order what i want was amazing, It has been
-                a very pleasant experience ordering from this app”
-              </p>
-              <div class="customers-users-container">
-                <img
-                  class="customers-user-foto"
-                  src="./images/customers/avatar2.jpg"
-                  alt="photo Sumith Shah"
-                />
-                <div class="customers-user-info">
-                  <p class="customers-user-name">Sumith Shah</p>
-                  <p class="customers-user-status">Some Dude</p>
-                </div>
-              </div>
-            </li>
-          </ul>
+
+      <section class="subscribe-section">
+        <div class="container subscribe-container">
+          <div class="image-wrap">
+            <picture>
+              <source
+                srcset="./images/subsrc-banana-dt-x1.png 1x, ./images/subsrc-banana-dt-x2.png 2x"
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="./images/subsrc-banana-tab-x1.png 1x, ./images/subsrc-banana-tab-x2.png 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/subsrc-banana-mob-x1.png 1x, ./images/subsrc-banana-mob-x2.png 2x"
+                media="(max-width: 767px)"
+              />
+              <img class="subscribe-image" src="./images/subsrc-banana-dt-x1.jpg" alt="banana" />
+            </picture>
+          </div>
+          <div class="content-wrap">
+            <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+            <p class="subscribe-text">
+              Order now and receive 10% off your first meal with Enjoy Your Favorite Food From
+              Anywhere.
+            </p>
+            <form class="subscribe-form">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                placeholder="Enter your email"
+              />
+              <button class="subscribe-form-btn" type="submit">Subscribe</button>
+            </form>
+          </div>
         </div>
       </section>
       <!-- subscribe Dima -->
